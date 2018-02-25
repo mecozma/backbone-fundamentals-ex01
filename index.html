@@ -26,7 +26,7 @@
     <div id="info">
         <p>Double-click to edit a todo</p>
         <p>Written by
-            <a href="https://github.com/addyosmani">Addy Osmani</a>
+            <a href="https://github.com/addyosmani" target="_blank">Addy Osmani</a>
         </p>
         <p>Part of
             <a href="http://todomvc.com" link="blank">TodoMVC</a>
@@ -41,21 +41,21 @@
             <input class="edit" value="<%= title %>">
             </script>
     <script type="text/template" id="stats-template">
-                <span id="todo-count"><strong><%= remaining %></strong> <%= remaining === 1 ? 'item' 87
-                <ul id="filters">
-                <li>
-                <a class="selected" href="#/">All</a>
-                </li>
-                <li>
-                <a href="#/active">Active</a>
-                </li>
-                <li>
-                <a href="#/completed">Completed</a>
-                </li>
-                </ul>
-                <% if (completed) { %>
-                <button id="clear-completed">Clear completed (<%= completed %>)</button>
-                <% } %>
+            <span id="todo-count"><strong><%= remaining %></strong> <%= remaining === 1 ? 'item' 87
+            <ul id="filters">
+            <li>
+            <a class="selected" href="#/">All</a>
+            </li>
+            <li>
+            <a href="#/active">Active</a>
+            </li>
+            <li>
+            <a href="#/completed">Completed</a>
+            </li>
+            </ul>
+            <% if (completed) { %>
+            <button id="clear-completed">Clear completed (<%= completed %>)</button>
+            <% } %>
      </script>
     <script src="js/lib/jquery-3.3.1.min.js"></script>
     <script src="js/lib/underscore-min.js"></script>
